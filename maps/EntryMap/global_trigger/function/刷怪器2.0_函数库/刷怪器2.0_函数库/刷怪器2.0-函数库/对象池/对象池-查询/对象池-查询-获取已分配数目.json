@@ -1,0 +1,170 @@
+{
+    "action": [
+        {
+            "action_type": "SET_VARIABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100030, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "INTEGER", 
+                                "PoolKey", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        {
+                            "arg_type": 100116, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "UNIT_NAME", 
+                                        "EntityType", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 2
+                        }
+                    ], 
+                    "sub_type": "GET_UNIT_NAME_TYPE_ID"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 591335509000001, 
+            "enable": true
+        }, 
+        {
+            "action_type": "SET_VARIABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100030, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "INTEGER", 
+                                "UnitPoolAllocatedCount", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        [
+                            "INTEGER", 
+                            "__UnitPoolAllocatedSize"
+                        ], 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "INTEGER", 
+                                        "PoolKey", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 6
+                        }
+                    ], 
+                    "sub_type": 6
+                }
+            ], 
+            "bp": false, 
+            "element_id": 591335509000002, 
+            "enable": true
+        }, 
+        {
+            "action_type": 400342, 
+            "args_list": [
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "INTEGER", 
+                                "UnitPoolAllocatedCount", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 6
+                }
+            ], 
+            "bp": false, 
+            "element_id": 591335509000003, 
+            "enable": true
+        }
+    ], 
+    "call_enabled": true, 
+    "condition": [], 
+    "enabled": true, 
+    "event": [], 
+    "func_category": "t_function", 
+    "func_comment": "", 
+    "func_des": "获取{EntityType}的已分配数目", 
+    "func_id": "56dd407083d411ee9aa830f6effac879", 
+    "func_name": "对象池-查询-获取已分配数目", 
+    "func_param_list": [
+        {
+            "__tuple__": true, 
+            "items": [
+                "EntityType", 
+                true
+            ]
+        }
+    ], 
+    "func_return": true, 
+    "func_rtv_name_list": [
+        {
+            "__tuple__": true, 
+            "items": [
+                "已分配数目", 
+                "INTEGER"
+            ]
+        }
+    ], 
+    "group_id": "T6GNDW0tEfGmsGfXhdnOiO", 
+    "is_func": true, 
+    "is_official_func": false, 
+    "p_trigger_id": null, 
+    "trigger_id": 591335509, 
+    "trigger_name": "对象池-查询-获取已分配数目", 
+    "valid": true, 
+    "var_data": [
+        {
+            "INTEGER": {
+                "PoolKey": 0, 
+                "UnitPoolAllocatedCount": 0
+            }, 
+            "UNIT_NAME": {
+                "EntityType": 0
+            }
+        }, 
+        {
+            "EntityType": 0, 
+            "PoolKey": 0, 
+            "UnitPoolAllocatedCount": 0
+        }, 
+        [
+            "PoolKey", 
+            "EntityType", 
+            "UnitPoolAllocatedCount"
+        ]
+    ]
+}

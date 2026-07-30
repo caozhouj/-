@@ -1,0 +1,73 @@
+{
+    "action": [
+        {
+            "action_type": "CALL_TRIGGER_FUNC", 
+            "args_list": [
+                {
+                    "arg_type": 100177, 
+                    "args_list": [
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "UNIT_ENTITY", 
+                                        "Unit", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 11
+                        }
+                    ], 
+                    "op_arg": [], 
+                    "op_arg_enable": [], 
+                    "sub_type": "363bdccf843511ee92bb30f6effac879"
+                }
+            ], 
+            "bp": false, 
+            "call_rt_arg_idxes": [], 
+            "element_id": 753295409000001, 
+            "enable": true
+        }
+    ], 
+    "call_enabled": true, 
+    "condition": [], 
+    "enabled": true, 
+    "event": [], 
+    "func_category": "t_function", 
+    "func_comment": "", 
+    "func_des": "归还{Unit}至对象池", 
+    "func_id": "7eb4f930d55511eeb5f330d042e90e85", 
+    "func_name": "刷怪器2.0-回收怪物", 
+    "func_param_list": [
+        {
+            "__tuple__": true, 
+            "items": [
+                "Unit", 
+                true
+            ]
+        }
+    ], 
+    "group_id": "T6IHbW0tEfGq82fXhdnOiJ", 
+    "is_func": true, 
+    "is_official_func": false, 
+    "p_trigger_id": null, 
+    "trigger_id": 753295409, 
+    "trigger_name": "刷怪器2.0-回收怪物", 
+    "valid": true, 
+    "var_data": [
+        {
+            "UNIT_ENTITY": {
+                "Unit": 0
+            }
+        }, 
+        {
+            "Unit": 0
+        }, 
+        [
+            "Unit"
+        ]
+    ]
+}

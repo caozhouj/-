@@ -1,0 +1,160 @@
+{
+    "action": [
+        {
+            "action_type": "CALL_TRIGGER_FUNC", 
+            "args_list": [
+                {
+                    "arg_type": 100177, 
+                    "args_list": [
+                        {
+                            "arg_type": 100116, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "UNIT_NAME", 
+                                        "EntityType", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 2
+                        }, 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "INTEGER", 
+                                        "池目标大小", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 6
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                true
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                5
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100000, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "FLOAT", 
+                                        "死亡回收延迟", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 2
+                        }
+                    ], 
+                    "op_arg": [
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                5
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                true
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "op_arg_enable": [
+                        true, 
+                        true
+                    ], 
+                    "sub_type": "e9738a61886211eea40d00ffa24be0d3"
+                }
+            ], 
+            "bp": false, 
+            "call_rt_arg_idxes": [], 
+            "element_id": 911806560000001, 
+            "enable": true
+        }
+    ], 
+    "call_enabled": true, 
+    "condition": [], 
+    "enabled": true, 
+    "event": [], 
+    "func_category": "t_function", 
+    "func_comment": "", 
+    "func_des": "配置{EntityType}的对象池：目标大小{池目标大小}，单位死亡回收延迟{死亡回收延迟}", 
+    "func_id": "4b375aaebbf311eead9130d042e90e85", 
+    "func_name": "对象池-配置指定单位类型的对象池", 
+    "func_param_list": [
+        {
+            "__tuple__": true, 
+            "items": [
+                "死亡回收延迟", 
+                true
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "池目标大小", 
+                true
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "EntityType", 
+                true
+            ]
+        }
+    ], 
+    "group_id": "T6H1nm0tEfGcOmfXhdnOiK", 
+    "is_func": true, 
+    "is_official_func": false, 
+    "p_trigger_id": null, 
+    "trigger_id": 911806560, 
+    "trigger_name": "对象池-配置指定单位类型的对象池", 
+    "valid": true, 
+    "var_data": [
+        {
+            "FLOAT": {
+                "temp": 0.0, 
+                "死亡回收延迟": 0.0
+            }, 
+            "INTEGER": {
+                "池目标大小": 0
+            }, 
+            "UNIT_NAME": {
+                "EntityType": 0
+            }
+        }, 
+        {
+            "EntityType": 0, 
+            "temp": 0, 
+            "死亡回收延迟": 0, 
+            "池目标大小": 0
+        }, 
+        [
+            "temp", 
+            "池目标大小", 
+            "EntityType", 
+            "死亡回收延迟"
+        ]
+    ]
+}

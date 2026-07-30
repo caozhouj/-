@@ -1,0 +1,17 @@
+{
+    "action": [], 
+    "call_enabled": true, 
+    "condition": [], 
+    "enabled": true, 
+    "event": [], 
+    "group_id": "T5wBA20tEfGwPmfXhdnOiA", 
+    "p_trigger_id": null, 
+    "trigger_id": 848031788, 
+    "trigger_name": "---建议在仅包含本插件的空地图中测试---", 
+    "valid": true, 
+    "var_data": [
+        {}, 
+        {}, 
+        []
+    ]
+}

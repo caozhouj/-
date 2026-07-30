@@ -1,0 +1,348 @@
+{
+    "action": [
+        {
+            "action_type": "SET_VARIABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100030, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "INTEGER", 
+                                "PoolKey", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        {
+                            "arg_type": 100116, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "UNIT_NAME", 
+                                        "EntityType", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 2
+                        }
+                    ], 
+                    "sub_type": "GET_UNIT_NAME_TYPE_ID"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1816072280000001, 
+            "enable": true
+        }, 
+        {
+            "action_type": "PRINT_MESSAGE_ACTION_TO_DIALOG", 
+            "args_list": [
+                {
+                    "arg_type": 100175, 
+                    "args_list": [
+                        3
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100003, 
+                    "args_list": [
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "[对象池]<"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "INTEGER", 
+                                                        "PoolKey", 
+                                                        "local"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": 6
+                                        }
+                                    ], 
+                                    "sub_type": "ANY_VAR_TO_STR"
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "("
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "op_arg": [
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100116, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "UNIT_NAME", 
+                                                        "EntityType", 
+                                                        "local"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": 2
+                                        }
+                                    ], 
+                                    "sub_type": "GET_UNIT_NAME_BY_TYPE"
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        ")"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                null, 
+                                null, 
+                                null, 
+                                null, 
+                                null, 
+                                null
+                            ], 
+                            "op_arg_enable": [
+                                true, 
+                                true, 
+                                false, 
+                                false, 
+                                false, 
+                                false, 
+                                false, 
+                                false
+                            ], 
+                            "sub_type": "STR_JOIN"
+                        }
+                    ], 
+                    "op_arg": [
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                ">["
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100002, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100116, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "UNIT_NAME", 
+                                                        "EntityType", 
+                                                        "local"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": 2
+                                        }
+                                    ], 
+                                    "call_rt_index": 0, 
+                                    "op_arg": [], 
+                                    "op_arg_enable": [], 
+                                    "sub_type": "56dd407083d411ee9aa830f6effac879"
+                                }
+                            ], 
+                            "sub_type": "ANY_VAR_TO_STR"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "/"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100002, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100116, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "UNIT_NAME", 
+                                                        "EntityType", 
+                                                        "local"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": 2
+                                        }
+                                    ], 
+                                    "call_rt_index": 0, 
+                                    "op_arg": [], 
+                                    "op_arg_enable": [], 
+                                    "sub_type": "45357cb083d511eeb33830f6effac879"
+                                }
+                            ], 
+                            "sub_type": "ANY_VAR_TO_STR"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "("
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100002, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100116, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "UNIT_NAME", 
+                                                        "EntityType", 
+                                                        "local"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": 2
+                                        }
+                                    ], 
+                                    "call_rt_index": 0, 
+                                    "op_arg": [], 
+                                    "op_arg_enable": [], 
+                                    "sub_type": "bcf2cf9183db11ee954d30f6effac879"
+                                }
+                            ], 
+                            "sub_type": "ANY_VAR_TO_STR"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                ")]: "
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "STRING", 
+                                        "Info", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 2
+                        }
+                    ], 
+                    "op_arg_enable": [
+                        true, 
+                        true, 
+                        true, 
+                        true, 
+                        true, 
+                        true, 
+                        true, 
+                        true
+                    ], 
+                    "sub_type": "STR_JOIN"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1816072280000002, 
+            "enable": true
+        }
+    ], 
+    "call_enabled": true, 
+    "condition": [], 
+    "enabled": true, 
+    "event": [], 
+    "func_category": "t_function", 
+    "func_comment": "", 
+    "func_des": "输出{EntityType}的对象池信息，附：{Info}", 
+    "func_id": "ec9f50cf842e11eeabe130f6effac879", 
+    "func_name": "对象池-调试-输出对象池信息", 
+    "func_param_list": [
+        {
+            "__tuple__": true, 
+            "items": [
+                "EntityType", 
+                true
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "Info", 
+                true
+            ]
+        }
+    ], 
+    "group_id": "T6Gs4W0tEfGi7WfXhdnOiO", 
+    "is_func": true, 
+    "is_official_func": false, 
+    "p_trigger_id": null, 
+    "trigger_id": 1816072280, 
+    "trigger_name": "对象池-调试-输出对象池信息", 
+    "valid": true, 
+    "var_data": [
+        {
+            "INTEGER": {
+                "PoolKey": 0
+            }, 
+            "STRING": {
+                "Info": ""
+            }, 
+            "UNIT_NAME": {
+                "EntityType": 0
+            }
+        }, 
+        {
+            "EntityType": 0, 
+            "Info": 0, 
+            "PoolKey": 0
+        }, 
+        [
+            "EntityType", 
+            "PoolKey", 
+            "Info"
+        ]
+    ]
+}

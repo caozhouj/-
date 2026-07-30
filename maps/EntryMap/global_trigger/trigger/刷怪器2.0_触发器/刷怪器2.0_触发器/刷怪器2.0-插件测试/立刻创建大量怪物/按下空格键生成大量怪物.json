@@ -1,0 +1,211 @@
+{
+    "action": [
+        {
+            "action_type": "SET_VARIABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100004, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "POINT", 
+                                "start", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 19
+                }, 
+                {
+                    "arg_type": 100004, 
+                    "args_list": [
+                        {
+                            "arg_type": 100000, 
+                            "args_list": [
+                                -2000.0
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100000, 
+                            "args_list": [
+                                -2000.0
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "FLOAT_TO_POINT"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1802985527000002, 
+            "enable": true
+        }, 
+        {
+            "action_type": "SET_VARIABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100004, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "POINT", 
+                                "end", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 19
+                }, 
+                {
+                    "arg_type": 100004, 
+                    "args_list": [
+                        {
+                            "arg_type": 100000, 
+                            "args_list": [
+                                2000.0
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100000, 
+                            "args_list": [
+                                2000.0
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "FLOAT_TO_POINT"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1802985527000003, 
+            "enable": true
+        }, 
+        {
+            "action_type": "CALL_TRIGGER_FUNC", 
+            "args_list": [
+                {
+                    "arg_type": 100177, 
+                    "args_list": [
+                        {
+                            "arg_type": 100009, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100004, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "POINT", 
+                                                "start", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 19
+                                }, 
+                                {
+                                    "arg_type": 100004, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "POINT", 
+                                                "end", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 19
+                                }
+                            ], 
+                            "sub_type": "CREATE_REC_AREA_BY_TWO_POINTS"
+                        }, 
+                        {
+                            "arg_type": 100116, 
+                            "args_list": [
+                                134279412
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                20
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "op_arg": [
+                        null
+                    ], 
+                    "op_arg_enable": [
+                        false
+                    ], 
+                    "sub_type": "56569a40d5e411eeb85230d042e90e85"
+                }
+            ], 
+            "bp": false, 
+            "call_rt_arg_idxes": [], 
+            "element_id": 1802985527000004, 
+            "enable": true
+        }
+    ], 
+    "call_enabled": true, 
+    "condition": [], 
+    "enabled": true, 
+    "event": [
+        {
+            "args_list": [
+                {
+                    "arg_type": 200220, 
+                    "args_list": [
+                        57
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 1802985527000001, 
+            "enable": true, 
+            "event_type": "KEYBOARD_KEY_DOWN_EVENT"
+        }
+    ], 
+    "group_id": "T5wf720tEfGnAWfXhdnOiI", 
+    "p_trigger_id": null, 
+    "trigger_id": 1802985527, 
+    "trigger_name": "按下空格键生成大量怪物", 
+    "valid": true, 
+    "var_data": [
+        {
+            "POINT": {
+                "end": {
+                    "__tuple__": true, 
+                    "items": [
+                        0, 
+                        0, 
+                        0
+                    ]
+                }, 
+                "start": {
+                    "__tuple__": true, 
+                    "items": [
+                        0, 
+                        0, 
+                        0
+                    ]
+                }
+            }
+        }, 
+        {
+            "end": 0, 
+            "start": 0
+        }, 
+        [
+            "end", 
+            "start"
+        ]
+    ]
+}

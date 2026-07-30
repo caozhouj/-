@@ -1,0 +1,106 @@
+{
+    "action": [
+        {
+            "action_type": "CALL_TRIGGER_FUNC", 
+            "args_list": [
+                {
+                    "arg_type": 100177, 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "PLAYER", 
+                                        "池暂存玩家", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
+                        {
+                            "arg_type": 100004, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "POINT", 
+                                        "池暂存点", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 19
+                        }
+                    ], 
+                    "op_arg": [], 
+                    "op_arg_enable": [], 
+                    "sub_type": "08d4d06e885011eeadf100ffa24be0d3"
+                }
+            ], 
+            "bp": false, 
+            "call_rt_arg_idxes": [], 
+            "element_id": 1766355036000001, 
+            "enable": true
+        }
+    ], 
+    "call_enabled": true, 
+    "condition": [], 
+    "enabled": true, 
+    "event": [], 
+    "func_category": "t_function", 
+    "func_comment": "", 
+    "func_des": "初始化对象池，暂存玩家为{池暂存玩家}暂存点为{池暂存点}", 
+    "func_id": "ac58bb00bbf211ee95b030d042e90e85", 
+    "func_name": "对象池-初始化对象池", 
+    "func_param_list": [
+        {
+            "__tuple__": true, 
+            "items": [
+                "池暂存玩家", 
+                true
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "池暂存点", 
+                true
+            ]
+        }
+    ], 
+    "group_id": "T6H1nm0tEfGcOmfXhdnOiK", 
+    "is_func": true, 
+    "is_official_func": false, 
+    "p_trigger_id": null, 
+    "trigger_id": 1766355036, 
+    "trigger_name": "对象池-初始化对象池", 
+    "valid": true, 
+    "var_data": [
+        {
+            "PLAYER": {
+                "池暂存玩家": 0
+            }, 
+            "POINT": {
+                "池暂存点": {
+                    "__tuple__": true, 
+                    "items": [
+                        0, 
+                        0, 
+                        0
+                    ]
+                }
+            }
+        }, 
+        {
+            "池暂存点": 0, 
+            "池暂存玩家": 0
+        }, 
+        [
+            "池暂存点", 
+            "池暂存玩家"
+        ]
+    ]
+}

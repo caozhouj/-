@@ -1,0 +1,254 @@
+{
+    "action": [
+        {
+            "action_type": "SET_VARIABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100030, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "INTEGER", 
+                                "PoolKey", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        {
+                            "arg_type": 100116, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "UNIT_NAME", 
+                                        "EntityType", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 2
+                        }
+                    ], 
+                    "sub_type": "GET_UNIT_NAME_TYPE_ID"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 524226642000001, 
+            "enable": true
+        }, 
+        {
+            "action_type": "CALL_TRIGGER_FUNC", 
+            "args_list": [
+                {
+                    "arg_type": 100177, 
+                    "args_list": [
+                        {
+                            "arg_type": 100116, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "UNIT_NAME", 
+                                        "EntityType", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 2
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "尝试关闭后台调整"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "op_arg": [], 
+                    "op_arg_enable": [], 
+                    "sub_type": "ec9f50cf842e11eeabe130f6effac879"
+                }
+            ], 
+            "bp": false, 
+            "call_rt_arg_idxes": [], 
+            "element_id": 524226642000002, 
+            "enable": true
+        }, 
+        {
+            "action_type": "IF_THEN_ELSE", 
+            "args_list": [
+                {
+                    "arg_type": 100021, 
+                    "args_list": [
+                        {
+                            "args_list": [
+                                {
+                                    "arg_type": 100181, 
+                                    "args_list": [
+                                        [
+                                            "NEW_TIMER", 
+                                            "__UnitPoolBackgroundMounter"
+                                        ], 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "INTEGER", 
+                                                        "PoolKey", 
+                                                        "local"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": 6
+                                        }
+                                    ], 
+                                    "sub_type": "VARIABLE"
+                                }
+                            ], 
+                            "condition_type": "IS_TIMER_VALID", 
+                            "element_id": 524226642000003, 
+                            "enable": true
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100022, 
+                    "args_list": [
+                        {
+                            "action_type": "CALL_TRIGGER_FUNC", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100177, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100116, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "UNIT_NAME", 
+                                                        "EntityType", 
+                                                        "local"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": 2
+                                        }, 
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                "主动关闭后台调整"
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "op_arg": [], 
+                                    "op_arg_enable": [], 
+                                    "sub_type": "ec9f50cf842e11eeabe130f6effac879"
+                                }
+                            ], 
+                            "bp": false, 
+                            "call_rt_arg_idxes": [], 
+                            "element_id": 524226642000004, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "DELETE_TIMER", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100181, 
+                                    "args_list": [
+                                        [
+                                            "NEW_TIMER", 
+                                            "__UnitPoolBackgroundMounter"
+                                        ], 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "INTEGER", 
+                                                        "PoolKey", 
+                                                        "local"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": 6
+                                        }
+                                    ], 
+                                    "sub_type": "VARIABLE"
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 524226642000005, 
+                            "enable": true
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100022, 
+                    "args_list": [], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 524226642000006, 
+            "enable": true, 
+            "fake_op": []
+        }
+    ], 
+    "call_enabled": true, 
+    "condition": [], 
+    "enabled": true, 
+    "event": [], 
+    "func_category": "t_function", 
+    "func_comment": "", 
+    "func_des": "关闭{EntityType}对象池的后台调整", 
+    "func_id": "e591e680844811eeafec30f6effac879", 
+    "func_name": "对象池-操作-关闭后台调整", 
+    "func_param_list": [
+        {
+            "__tuple__": true, 
+            "items": [
+                "EntityType", 
+                true
+            ]
+        }
+    ], 
+    "group_id": "T6EB8W0tEfGmg2fXhdnOiE", 
+    "is_func": true, 
+    "is_official_func": false, 
+    "p_trigger_id": null, 
+    "trigger_id": 524226642, 
+    "trigger_name": "对象池-操作-关闭后台调整", 
+    "valid": true, 
+    "var_data": [
+        {
+            "INTEGER": {
+                "PoolKey": 0
+            }, 
+            "UNIT_NAME": {
+                "EntityType": 0
+            }
+        }, 
+        {
+            "EntityType": 0, 
+            "PoolKey": 0
+        }, 
+        [
+            "PoolKey", 
+            "EntityType"
+        ]
+    ]
+}

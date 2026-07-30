@@ -1,0 +1,300 @@
+{
+    "action": [
+        {
+            "action_type": "SET_VARIABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100030, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "UNIT_NAME", 
+                                "EntityType", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100116, 
+                    "args_list": [
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "UNIT_ENTITY", 
+                                        "Unit", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 11
+                        }
+                    ], 
+                    "sub_type": "GET_UNIT_KEY_OF_UNIT"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 272568400000001, 
+            "enable": true
+        }, 
+        {
+            "action_type": "UNIT_REMOVE_TAG", 
+            "args_list": [
+                {
+                    "arg_type": 100006, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "UNIT_ENTITY", 
+                                "Unit", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 11
+                }, 
+                {
+                    "arg_type": 100003, 
+                    "args_list": [
+                        "__UnitPoolDie__"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 272568400000002, 
+            "enable": true
+        }, 
+        {
+            "action_type": "CALL_TRIGGER_FUNC", 
+            "args_list": [
+                {
+                    "arg_type": 100177, 
+                    "args_list": [
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "UNIT_ENTITY", 
+                                        "Unit", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 11
+                        }
+                    ], 
+                    "op_arg": [], 
+                    "op_arg_enable": [], 
+                    "sub_type": "31177640842d11eea87b30f6effac879"
+                }
+            ], 
+            "bp": false, 
+            "call_rt_arg_idxes": [], 
+            "element_id": 272568400000003, 
+            "enable": true
+        }, 
+        {
+            "action_type": "CHANGE_UNIT_ROLE", 
+            "args_list": [
+                {
+                    "arg_type": 100006, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "UNIT_ENTITY", 
+                                "Unit", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 11
+                }, 
+                {
+                    "arg_type": 100025, 
+                    "args_list": [
+                        [
+                            "PLAYER", 
+                            "__UnitPoolSeclusionPlayer"
+                        ]
+                    ], 
+                    "sub_type": "VARIABLE"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 272568400000004, 
+            "enable": true
+        }, 
+        [
+            1736394643, 
+            "开启可选参数中的“平滑”可以降低表现层调用消耗", 
+            272568400, 
+            "action_type"
+        ], 
+        {
+            "action_type": "FORCE_TRANSMIT_UNIT", 
+            "args_list": [
+                {
+                    "arg_type": 100006, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "UNIT_ENTITY", 
+                                "Unit", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 11
+                }, 
+                {
+                    "arg_type": 100004, 
+                    "args_list": [
+                        [
+                            "POINT", 
+                            "__UnitPoolSeclusionPoint"
+                        ]
+                    ], 
+                    "sub_type": 19
+                }
+            ], 
+            "bp": false, 
+            "element_id": 272568400000005, 
+            "enable": true, 
+            "op_arg": [
+                {
+                    "arg_type": 100001, 
+                    "args_list": [
+                        true
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "op_arg_enable": [
+                true
+            ]
+        }, 
+        {
+            "action_type": "CALL_TRIGGER_FUNC", 
+            "args_list": [
+                {
+                    "arg_type": 100177, 
+                    "args_list": [
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "UNIT_ENTITY", 
+                                        "Unit", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 11
+                        }
+                    ], 
+                    "op_arg": [], 
+                    "op_arg_enable": [], 
+                    "sub_type": "d89c7af083bf11ee9c3d30f6effac879"
+                }
+            ], 
+            "bp": false, 
+            "call_rt_arg_idxes": [], 
+            "element_id": 272568400000006, 
+            "enable": true
+        }, 
+        {
+            "action_type": "CALL_TRIGGER_FUNC", 
+            "args_list": [
+                {
+                    "arg_type": 100177, 
+                    "args_list": [
+                        {
+                            "arg_type": 100116, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "UNIT_NAME", 
+                                        "EntityType", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 2
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "归还单位"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "op_arg": [], 
+                    "op_arg_enable": [], 
+                    "sub_type": "ec9f50cf842e11eeabe130f6effac879"
+                }
+            ], 
+            "bp": false, 
+            "call_rt_arg_idxes": [], 
+            "element_id": 272568400000007, 
+            "enable": false
+        }
+    ], 
+    "call_enabled": true, 
+    "condition": [], 
+    "enabled": true, 
+    "event": [], 
+    "func_category": "t_function", 
+    "func_comment": "", 
+    "func_des": "归还{Unit}至对象池", 
+    "func_id": "363bdccf843511ee92bb30f6effac879", 
+    "func_name": "对象池-操作-归还单位", 
+    "func_param_list": [
+        {
+            "__tuple__": true, 
+            "items": [
+                "Unit", 
+                true
+            ]
+        }
+    ], 
+    "group_id": "T6EB8W0tEfGmg2fXhdnOiE", 
+    "is_func": true, 
+    "is_official_func": false, 
+    "p_trigger_id": null, 
+    "trigger_id": 272568400, 
+    "trigger_name": "对象池-操作-归还单位", 
+    "valid": true, 
+    "var_data": [
+        {
+            "UNIT_ENTITY": {
+                "Unit": 0
+            }, 
+            "UNIT_NAME": {
+                "EntityType": 0
+            }
+        }, 
+        {
+            "EntityType": 0, 
+            "Unit": 0
+        }, 
+        [
+            "EntityType", 
+            "Unit"
+        ]
+    ]
+}

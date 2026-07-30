@@ -1,0 +1,212 @@
+{
+    "action": [
+        {
+            "action_type": "SET_VARIABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100030, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "INTEGER", 
+                                "符合条件的数目", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        {
+                            "arg_type": 100026, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100004, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "POINT", 
+                                                "点", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 19
+                                }, 
+                                {
+                                    "arg_type": 100211, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100000, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "FLOAT", 
+                                                        "半径", 
+                                                        "local"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": 2
+                                        }
+                                    ], 
+                                    "sub_type": "CONST_CIRCULAR_SHAPE"
+                                }
+                            ], 
+                            "op_arg": [
+                                null, 
+                                null, 
+                                null, 
+                                null, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "__UnitPoolDie__"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                null, 
+                                null, 
+                                null, 
+                                null, 
+                                null, 
+                                null, 
+                                {
+                                    "arg_type": 100001, 
+                                    "args_list": [
+                                        true
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                null, 
+                                null, 
+                                null
+                            ], 
+                            "op_arg_enable": [
+                                false, 
+                                false, 
+                                false, 
+                                false, 
+                                true, 
+                                false, 
+                                false, 
+                                false, 
+                                false, 
+                                false, 
+                                false, 
+                                true, 
+                                false, 
+                                false, 
+                                false
+                            ], 
+                            "sub_type": "UNIT_LIST_IN_SHAPE"
+                        }
+                    ], 
+                    "sub_type": "GET_COUNT"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1363087451000001, 
+            "enable": true
+        }, 
+        {
+            "action_type": 400342, 
+            "args_list": [
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "INTEGER", 
+                                "符合条件的数目", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 6
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1363087451000002, 
+            "enable": true
+        }
+    ], 
+    "call_enabled": true, 
+    "condition": [], 
+    "enabled": true, 
+    "event": [], 
+    "func_category": "t_function", 
+    "func_comment": "", 
+    "func_des": "获取（以{点}为圆心、以{半径}半径）范围内待回收单位数量", 
+    "func_id": "7bfd8080934d11ee933500ffa24be0d3", 
+    "func_name": "对象池-查询-扩展-获取圆形范围内待回收单位数量", 
+    "func_param_list": [
+        {
+            "__tuple__": true, 
+            "items": [
+                "点", 
+                true
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "半径", 
+                true
+            ]
+        }
+    ], 
+    "func_return": true, 
+    "func_rtv_name_list": [
+        {
+            "__tuple__": true, 
+            "items": [
+                "数目", 
+                "INTEGER"
+            ]
+        }
+    ], 
+    "group_id": "T6GlkG0tEfGwwWfXhdnOiC", 
+    "is_func": true, 
+    "is_official_func": false, 
+    "p_trigger_id": null, 
+    "trigger_id": 1363087451, 
+    "trigger_name": "对象池-查询-扩展-获取圆形范围内待回收单位数量", 
+    "valid": true, 
+    "var_data": [
+        {
+            "FLOAT": {
+                "半径": 0.0
+            }, 
+            "INTEGER": {
+                "符合条件的数目": 0
+            }, 
+            "POINT": {
+                "点": {
+                    "__tuple__": true, 
+                    "items": [
+                        0, 
+                        0, 
+                        0
+                    ]
+                }
+            }
+        }, 
+        {
+            "半径": 0, 
+            "点": 0, 
+            "符合条件的数目": 0
+        }, 
+        [
+            "点", 
+            "符合条件的数目", 
+            "半径"
+        ]
+    ]
+}

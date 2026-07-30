@@ -1,0 +1,158 @@
+{
+    "action": [
+        {
+            "action_type": "CALL_TRIGGER_FUNC", 
+            "args_list": [
+                {
+                    "arg_type": 100177, 
+                    "args_list": [
+                        {
+                            "arg_type": 100116, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "UNIT_NAME", 
+                                        "EntityType", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 2
+                        }, 
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "PLAYER", 
+                                        "Player", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
+                        {
+                            "arg_type": 100004, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "POINT", 
+                                        "创建位置", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 19
+                        }, 
+                        {
+                            "arg_type": 100225, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "ANGLE", 
+                                        "创建朝向", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 2
+                        }
+                    ], 
+                    "op_arg": [], 
+                    "op_arg_enable": [], 
+                    "sub_type": "67dde28f843211ee9bff30f6effac879"
+                }
+            ], 
+            "bp": false, 
+            "call_rt_arg_idxes": [], 
+            "element_id": 233013296000001, 
+            "enable": true
+        }
+    ], 
+    "call_enabled": true, 
+    "condition": [], 
+    "enabled": true, 
+    "event": [], 
+    "func_category": "t_function", 
+    "func_comment": "", 
+    "func_des": "从对象池创建怪物{EntityType}给{Player}在{创建位置}，朝向{创建朝向}", 
+    "func_id": "631ee68fd55511eebe3f30d042e90e85", 
+    "func_name": "刷怪器2.0-创建怪物", 
+    "func_param_list": [
+        {
+            "__tuple__": true, 
+            "items": [
+                "EntityType", 
+                true
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "Player", 
+                true
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "创建位置", 
+                true
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "创建朝向", 
+                true
+            ]
+        }
+    ], 
+    "group_id": "T6IHbW0tEfGq82fXhdnOiJ", 
+    "is_func": true, 
+    "is_official_func": false, 
+    "p_trigger_id": null, 
+    "trigger_id": 233013296, 
+    "trigger_name": "刷怪器2.0-创建怪物", 
+    "valid": true, 
+    "var_data": [
+        {
+            "ANGLE": {
+                "创建朝向": 0.0
+            }, 
+            "PLAYER": {
+                "Player": 0
+            }, 
+            "POINT": {
+                "创建位置": {
+                    "__tuple__": true, 
+                    "items": [
+                        0, 
+                        0, 
+                        0
+                    ]
+                }
+            }, 
+            "UNIT_NAME": {
+                "EntityType": 0
+            }
+        }, 
+        {
+            "EntityType": 0, 
+            "Player": 0, 
+            "创建位置": 0, 
+            "创建朝向": 0
+        }, 
+        [
+            "Player", 
+            "EntityType", 
+            "创建朝向", 
+            "创建位置"
+        ]
+    ]
+}

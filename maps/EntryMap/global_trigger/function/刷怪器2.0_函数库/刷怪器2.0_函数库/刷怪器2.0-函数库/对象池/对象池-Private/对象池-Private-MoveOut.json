@@ -1,0 +1,202 @@
+{
+    "action": [
+        [
+            1039621440, 
+            "变量准备", 
+            624889918, 
+            "action_type"
+        ], 
+        {
+            "action_type": "SET_VARIABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100030, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "UNIT_NAME", 
+                                "EntityType", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100116, 
+                    "args_list": [
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "UNIT_ENTITY", 
+                                        "Unit", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 11
+                        }
+                    ], 
+                    "sub_type": "GET_UNIT_KEY_OF_UNIT"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 624889918000001, 
+            "enable": true
+        }, 
+        {
+            "action_type": "SET_VARIABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100030, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "INTEGER", 
+                                "PoolKey", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        {
+                            "arg_type": 100116, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "UNIT_NAME", 
+                                        "EntityType", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 2
+                        }
+                    ], 
+                    "sub_type": "GET_UNIT_NAME_TYPE_ID"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 624889918000002, 
+            "enable": true
+        }, 
+        [
+            1531704086, 
+            "变量准备结束", 
+            624889918, 
+            "action_type"
+        ], 
+        {
+            "action_type": "SET_VARIABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "INTEGER", 
+                                "UnitKey", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 6
+                }, 
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "UNIT_ENTITY", 
+                                        "Unit", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 11
+                        }
+                    ], 
+                    "call_rt_index": 0, 
+                    "op_arg": [], 
+                    "op_arg_enable": [], 
+                    "sub_type": "18b8c970844411ee928730f6effac879"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 624889918000003, 
+            "enable": true
+        }, 
+        [
+            1102395318, 
+            "TODO：用到再说，估计用不到", 
+            624889918, 
+            "action_type"
+        ]
+    ], 
+    "call_enabled": true, 
+    "condition": [], 
+    "enabled": true, 
+    "event": [], 
+    "func_category": "t_function", 
+    "func_comment": "", 
+    "func_des": "将{Unit}移出对象池", 
+    "func_id": "0c14c000aa0c11ee9a5900ffa24be0d3", 
+    "func_name": "对象池-Private-MoveOut", 
+    "func_param_list": [
+        {
+            "__tuple__": true, 
+            "items": [
+                "Unit", 
+                true
+            ]
+        }
+    ], 
+    "group_id": "T5--Dm0tEfGjIGfXhdnOiP", 
+    "is_func": true, 
+    "is_official_func": false, 
+    "p_trigger_id": null, 
+    "trigger_id": 624889918, 
+    "trigger_name": "对象池-Private-MoveOut", 
+    "valid": true, 
+    "var_data": [
+        {
+            "INTEGER": {
+                "PoolKey": 0, 
+                "UnitKey": 0
+            }, 
+            "UNIT_ENTITY": {
+                "Unit": 0
+            }, 
+            "UNIT_NAME": {
+                "EntityType": 0
+            }
+        }, 
+        {
+            "EntityType": 0, 
+            "PoolKey": 0, 
+            "Unit": 0, 
+            "UnitKey": 0
+        }, 
+        [
+            "PoolKey", 
+            "EntityType", 
+            "Unit", 
+            "UnitKey"
+        ]
+    ]
+}

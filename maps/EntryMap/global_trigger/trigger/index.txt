@@ -1,0 +1,8 @@
+{
+    "New trigger.json": 0, 
+    "UI.folder": 1, 
+    "刷怪器2.0_触发器.folder": 4, 
+    "新建触发器.json": 2, 
+    "新建触发器_2.json": 3, 
+    "消息提示_触发器.folder": 5
+}

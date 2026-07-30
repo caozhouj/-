@@ -1,0 +1,147 @@
+{
+    "action": [
+        {
+            "action_type": "SET_VARIABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100030, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "INTEGER", 
+                                "PoolKey", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        {
+                            "arg_type": 100116, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "UNIT_NAME", 
+                                        "EntityType", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 2
+                        }
+                    ], 
+                    "sub_type": "GET_UNIT_NAME_TYPE_ID"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1245646921000001, 
+            "enable": true
+        }, 
+        {
+            "action_type": "SET_VARIABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100028, 
+                    "args_list": [
+                        [
+                            "BOOLEAN", 
+                            "__UnitPoolEnable"
+                        ], 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "INTEGER", 
+                                        "PoolKey", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 6
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100001, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "BOOLEAN", 
+                                "开关", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": "VARIABLE"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1245646921000002, 
+            "enable": true
+        }
+    ], 
+    "call_enabled": true, 
+    "condition": [], 
+    "enabled": true, 
+    "event": [], 
+    "func_category": "t_function", 
+    "func_comment": "", 
+    "func_des": "设置{EntityType}是否使用对象池：{开关}", 
+    "func_id": "8326dc91940a11eeb44800ffa24be0d3", 
+    "func_name": "对象池-操作-开关单位类型的对象池", 
+    "func_param_list": [
+        {
+            "__tuple__": true, 
+            "items": [
+                "EntityType", 
+                true
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "开关", 
+                true
+            ]
+        }
+    ], 
+    "group_id": "T6EB8W0tEfGmg2fXhdnOiE", 
+    "is_func": true, 
+    "is_official_func": false, 
+    "p_trigger_id": null, 
+    "trigger_id": 1245646921, 
+    "trigger_name": "对象池-操作-开关单位类型的对象池", 
+    "valid": true, 
+    "var_data": [
+        {
+            "BOOLEAN": {
+                "开关": false
+            }, 
+            "INTEGER": {
+                "PoolKey": 0
+            }, 
+            "UNIT_NAME": {
+                "EntityType": 0
+            }
+        }, 
+        {
+            "EntityType": 0, 
+            "PoolKey": 0, 
+            "开关": 0
+        }, 
+        [
+            "EntityType", 
+            "PoolKey", 
+            "开关"
+        ]
+    ]
+}

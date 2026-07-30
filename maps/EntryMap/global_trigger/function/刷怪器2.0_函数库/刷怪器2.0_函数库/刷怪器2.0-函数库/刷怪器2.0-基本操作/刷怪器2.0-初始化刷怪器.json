@@ -1,0 +1,106 @@
+{
+    "action": [
+        {
+            "action_type": "CALL_TRIGGER_FUNC", 
+            "args_list": [
+                {
+                    "arg_type": 100177, 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "PLAYER", 
+                                        "暂存玩家", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
+                        {
+                            "arg_type": 100004, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "POINT", 
+                                        "暂存点", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 19
+                        }
+                    ], 
+                    "op_arg": [], 
+                    "op_arg_enable": [], 
+                    "sub_type": "ac58bb00bbf211ee95b030d042e90e85"
+                }
+            ], 
+            "bp": false, 
+            "call_rt_arg_idxes": [], 
+            "element_id": 1773936686000001, 
+            "enable": true
+        }
+    ], 
+    "call_enabled": true, 
+    "condition": [], 
+    "enabled": true, 
+    "event": [], 
+    "func_category": "t_function", 
+    "func_comment": "", 
+    "func_des": "初始化刷怪器，暂存玩家{暂存玩家}，暂存点{暂存点}", 
+    "func_id": "eb554561d55311eeb32b30d042e90e85", 
+    "func_name": "刷怪器2.0-初始化刷怪器", 
+    "func_param_list": [
+        {
+            "__tuple__": true, 
+            "items": [
+                "暂存玩家", 
+                true
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "暂存点", 
+                true
+            ]
+        }
+    ], 
+    "group_id": "T6IHbW0tEfGq82fXhdnOiJ", 
+    "is_func": true, 
+    "is_official_func": false, 
+    "p_trigger_id": null, 
+    "trigger_id": 1773936686, 
+    "trigger_name": "刷怪器2.0-初始化刷怪器", 
+    "valid": true, 
+    "var_data": [
+        {
+            "PLAYER": {
+                "暂存玩家": 0
+            }, 
+            "POINT": {
+                "暂存点": {
+                    "__tuple__": true, 
+                    "items": [
+                        0, 
+                        0, 
+                        0
+                    ]
+                }
+            }
+        }, 
+        {
+            "暂存点": 0, 
+            "暂存玩家": 0
+        }, 
+        [
+            "暂存点", 
+            "暂存玩家"
+        ]
+    ]
+}

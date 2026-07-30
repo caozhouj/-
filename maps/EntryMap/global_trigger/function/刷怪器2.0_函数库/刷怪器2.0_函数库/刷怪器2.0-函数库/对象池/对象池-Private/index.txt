@@ -1,0 +1,16 @@
+{
+    "对象池-Private-Allocate.json": 0, 
+    "对象池-Private-Construct.json": 6, 
+    "对象池-Private-Destruct.json": 7, 
+    "对象池-Private-FlushImmediately.json": 8, 
+    "对象池-Private-FlushOneStep.json": 9, 
+    "对象池-Private-Free.json": 1, 
+    "对象池-Private-Mount.json": 2, 
+    "对象池-Private-MoveIn.json": 4, 
+    "对象池-Private-MoveOut.json": 5, 
+    "对象池-Private-Unmount.json": 3, 
+    "对象池-Private-实体化.json": 11, 
+    "对象池-Private-获取单位唯一ID.json": 12, 
+    "对象池-Private-获取存储位.json": 13, 
+    "对象池-Private-透明化.json": 10
+}

@@ -1,0 +1,292 @@
+{
+    "action": [
+        {
+            "action_type": "IF_THEN_ELSE", 
+            "args_list": [
+                {
+                    "arg_type": 100021, 
+                    "args_list": [
+                        [
+                            1485165788, 
+                            "空单位时返回0", 
+                            457117766, 
+                            "condition_type"
+                        ], 
+                        {
+                            "args_list": [
+                                {
+                                    "arg_type": 100006, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "UNIT_ENTITY", 
+                                                "Unit", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 11
+                                }, 
+                                {
+                                    "arg_type": 100035, 
+                                    "args_list": [
+                                        "!="
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100006, 
+                                    "args_list": [], 
+                                    "sub_type": "NONE_UNIT"
+                                }
+                            ], 
+                            "condition_type": "UNIT_COMPARE", 
+                            "element_id": 457117766000001, 
+                            "enable": true
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100022, 
+                    "args_list": [
+                        {
+                            "action_type": "SET_VARIABLE", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100030, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "STRING", 
+                                                "AllString", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100006, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "UNIT_ENTITY", 
+                                                        "Unit", 
+                                                        "local"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": 11
+                                        }
+                                    ], 
+                                    "sub_type": "ANY_VAR_TO_STR"
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 457117766000002, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_VARIABLE", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100030, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "STRING", 
+                                                "PartString", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "STRING", 
+                                                        "AllString", 
+                                                        "local"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": 2
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                5
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                13
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "sub_type": "EXTRACT_STR"
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 457117766000003, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_VARIABLE", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100030, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "INTEGER", 
+                                                "UnitID", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100002, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "STRING", 
+                                                        "PartString", 
+                                                        "local"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": 2
+                                        }
+                                    ], 
+                                    "sub_type": "STR_TO_INT"
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 457117766000004, 
+                            "enable": true
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100022, 
+                    "args_list": [], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 457117766000005, 
+            "enable": true, 
+            "fake_op": []
+        }, 
+        {
+            "action_type": 400342, 
+            "args_list": [
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "INTEGER", 
+                                "UnitID", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 6
+                }
+            ], 
+            "bp": false, 
+            "element_id": 457117766000006, 
+            "enable": true
+        }
+    ], 
+    "call_enabled": true, 
+    "condition": [], 
+    "enabled": true, 
+    "event": [], 
+    "func_category": "t_function", 
+    "func_comment": "不得已而为之", 
+    "func_des": "获取{Unit}的唯一ID", 
+    "func_id": "18b8c970844411ee928730f6effac879", 
+    "func_name": "对象池-Private-获取单位唯一ID", 
+    "func_param_list": [
+        {
+            "__tuple__": true, 
+            "items": [
+                "Unit", 
+                true
+            ]
+        }
+    ], 
+    "func_return": true, 
+    "func_rtv_name_list": [
+        {
+            "__tuple__": true, 
+            "items": [
+                "单位唯一ID", 
+                "INTEGER"
+            ]
+        }
+    ], 
+    "group_id": "T5--Dm0tEfGjIGfXhdnOiP", 
+    "is_func": true, 
+    "is_official_func": false, 
+    "p_trigger_id": null, 
+    "trigger_id": 457117766, 
+    "trigger_name": "对象池-Private-获取单位唯一ID", 
+    "valid": true, 
+    "var_data": [
+        {
+            "INTEGER": {
+                "UnitID": 0
+            }, 
+            "STRING": {
+                "AllString": "", 
+                "PartString": ""
+            }, 
+            "UNIT_ENTITY": {
+                "Unit": 0
+            }
+        }, 
+        {
+            "AllString": 0, 
+            "PartString": 0, 
+            "Unit": 0, 
+            "UnitID": 0
+        }, 
+        [
+            "AllString", 
+            "PartString", 
+            "Unit", 
+            "UnitID"
+        ]
+    ]
+}

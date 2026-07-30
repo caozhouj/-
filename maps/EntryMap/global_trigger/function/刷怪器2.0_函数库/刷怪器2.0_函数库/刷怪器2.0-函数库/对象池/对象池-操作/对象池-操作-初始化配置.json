@@ -1,0 +1,125 @@
+{
+    "action": [
+        {
+            "action_type": "SET_VARIABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100030, 
+                    "args_list": [
+                        [
+                            "PLAYER", 
+                            "__UnitPoolSeclusionPlayer"
+                        ]
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100025, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "PLAYER", 
+                                "池暂存玩家", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": "VARIABLE"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 2101284936000001, 
+            "enable": true
+        }, 
+        {
+            "action_type": "SET_VARIABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100030, 
+                    "args_list": [
+                        [
+                            "POINT", 
+                            "__UnitPoolSeclusionPoint"
+                        ]
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100004, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "POINT", 
+                                "池暂存点", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 19
+                }
+            ], 
+            "bp": false, 
+            "element_id": 2101284936000002, 
+            "enable": true
+        }
+    ], 
+    "call_enabled": true, 
+    "condition": [], 
+    "enabled": true, 
+    "event": [], 
+    "func_category": "t_function", 
+    "func_comment": "", 
+    "func_des": "配置对象池：暂存玩家为{池暂存玩家}；暂存点为{池暂存点}", 
+    "func_id": "08d4d06e885011eeadf100ffa24be0d3", 
+    "func_name": "对象池-操作-初始化配置", 
+    "func_param_list": [
+        {
+            "__tuple__": true, 
+            "items": [
+                "池暂存玩家", 
+                true
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "池暂存点", 
+                true
+            ]
+        }
+    ], 
+    "group_id": "T6EB8W0tEfGmg2fXhdnOiE", 
+    "is_func": true, 
+    "is_official_func": false, 
+    "p_trigger_id": null, 
+    "trigger_id": 2101284936, 
+    "trigger_name": "对象池-操作-初始化配置", 
+    "valid": true, 
+    "var_data": [
+        {
+            "PLAYER": {
+                "池暂存玩家": 0
+            }, 
+            "POINT": {
+                "池暂存点": {
+                    "__tuple__": true, 
+                    "items": [
+                        0, 
+                        0, 
+                        0
+                    ]
+                }
+            }
+        }, 
+        {
+            "池暂存点": 0, 
+            "池暂存玩家": 0
+        }, 
+        [
+            "池暂存玩家", 
+            "池暂存点"
+        ]
+    ]
+}
