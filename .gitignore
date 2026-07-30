@@ -32,3 +32,5 @@ Thumbs.db
 # Y3 specific
 .y3maker/
 plugins/
+maps/*/y3/
+maps/*/y3-helper/
