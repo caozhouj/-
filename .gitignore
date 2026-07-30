@@ -1,0 +1,34 @@
+# Y3 Game Project .gitignore
+
+# Build and runtime files
+*.log
+*.tmp
+*.cache
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.bak
+*.backup
+*.old
+
+# Large binary files
+*.zip
+*.rar
+*.7z
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Y3 specific
+.y3maker/
+plugins/
